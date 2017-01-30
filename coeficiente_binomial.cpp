@@ -7,6 +7,7 @@ using namespace std;
 int calcularCoeficiente(int, int, bool);
 
 int main(int argc, char** argv){
+	/* Recibe n, k y un 1 si se requiere el cálculo exacto o un 0 si se requiere el cálculo aproximado*/
 
 	int n=atoi(argv[1]);
 	int k=atoi(argv[2]);
