@@ -10,6 +10,9 @@ double timeval_diff(struct timeval *, struct timeval *);
 
 
 int main(int argc, char** argv){
+	/*
+	Recibe la base, el exponente y el modulo como argumentos
+	*/
 
 	int base=atoi(argv[1]);
 	int exponente=atoi(argv[2]);
