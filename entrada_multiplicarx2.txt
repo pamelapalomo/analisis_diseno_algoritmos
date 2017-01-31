@@ -1,0 +1,5 @@
+t10111v
+s t s t d
+s 0 s 0 d
+s 1 s 1 d
+s v alto 0 n
