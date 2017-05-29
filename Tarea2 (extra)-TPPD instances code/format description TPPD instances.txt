@@ -1,0 +1,48 @@
+**************
+TPPD instances
+**************
+
+The first line contains the following data:
+N M C P T
+
+Where:
+	N:= number of nodes
+	M:= number of markets
+	C:= number of customers
+	P:= number of products
+	T:= time limit
+
+The next N lines contain the following data:
+id x y s
+
+Where:
+	id:= node id
+	x:= x coordinate
+	y:= y coordinate
+	s:= service time
+
+Consider that:
+	* Node 0 is the depot
+	* Nodes 1 to M are markets
+	* Node M+1 to M+C are customers
+
+The next P lines contain the following data:
+p s0
+
+Where:
+	p:= product id
+	s0:= initial stock of product id
+
+The next PxM matrix is the offer matrix, where each entry (p,m) is the available quantity of product p in the market labeled as m+1.
+
+The next PxM matrix is the price matrix, where each entry (p,m) is the sale price of product p in the market labeled as m+1. If entry (p,m) is equal to zero, the market m+1 does not offer the product p.
+
+The next PxC matrix is the demand matrix, where each entry (p,c) is the quantity of product p that is demanded by customer labeled as c+M+1.
+
+*******
+Remarks
+*******
+
+* The routing costs (times) are given by the Euclidean distance, rounded to the nearest integer
+* The route starts and ends at node 0 (depot)
+* If the instance is not capacitated, then for each product, we assume that the offer in the markets that sale it is equal to the sum of the demands.
