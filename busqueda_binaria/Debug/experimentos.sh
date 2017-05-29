@@ -1,0 +1,10 @@
+./busqueda_binaria 10
+./busqueda_binaria 20
+./busqueda_binaria 40
+./busqueda_binaria 80
+./busqueda_binaria 160
+./busqueda_binaria 320
+./busqueda_binaria 640
+./busqueda_binaria 1280
+./busqueda_binaria 2560
+./busqueda_binaria 5120
