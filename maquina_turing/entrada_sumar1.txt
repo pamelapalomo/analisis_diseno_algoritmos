@@ -1,0 +1,7 @@
+t011v
+s t s t d
+s 0 s 0 d
+s 1 s 1 d
+s v q v i
+q 1 q 0 i
+q 0 alto 1 n

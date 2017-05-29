@@ -1,0 +1,7 @@
+t10110v
+s t s t d
+s 0 s 0 d
+s 1 s 1 d
+s v q v i
+q 0 si 0 n
+q 1 no 1 n
