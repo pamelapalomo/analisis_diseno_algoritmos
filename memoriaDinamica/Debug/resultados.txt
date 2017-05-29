@@ -1,0 +1,7 @@
+Forma operaciones	Umbral min	Umbral max	Costo amortizado	Costo	Numero cambios
+Random	0.1	0.9	1	200	0
+Random	0.25	0.75	1	200	0
+Random	0.5	0.5	1	200	0
+Bloques	0.1	0.9	1.455	291	1
+Bloques	0.25	0.75	2.135	427	2
+Bloques	0.5	0.5	5.215	1043	6
